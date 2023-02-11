@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: #150d29;
+}
+
+/* =======> roadmap style */
+
+.heroBg {
+  background-image: url("/Assets/heroImage.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bgOverly {
+  background-color: #07322d;
+  opacity: 0.9;
+}
+
+.css-67l5gl {
+  background-color: #58805a !important;
+}
+.css-1nqcc1s {
+  background-color: #58805a !important;
+}
+.MuiTimeline-root .MuiTimelineItem-root::before {
+  content: none !important;
+}
+
+.MuiTimelineDot-root {
+  background-color: #58805a;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.MuiTimelineDot-filled {
+  background-color: #58805a;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.MuiTimelineDot-filledGrey {
+  background-color: #58805a;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.MuiTimelineConnector-root {
+  background-color: #58805a !important;
+  width: 4px !important;
+  min-height: 50px !important;
+}
+/* form styling */
+.MuiInputBase-input {
+  max-width: 210px !important;
+  color: white !important;
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 12px !important;
+}
+.MuiOutlinedInput-notchedOutline {
+  border: 2px solid white !important;
+}
+.MuiFormLabel-root {
+  color: white !important;
+  font-family: "Open Sans", sans-serif;
+
+
+}
+/* =====> separaror css */
+.hexagon {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-color: #58805a;
+}
