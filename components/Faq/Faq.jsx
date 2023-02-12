@@ -7,10 +7,10 @@ import { Slide } from "react-awesome-reveal";
 
 function Faq() {
   return (
-    <div className="w-full min-h-screen">
-      <div className="w-full max-w-[1200px] flex flex-col gap-6 justify-start items-center m-auto h-full">
+    <div id="faq" className="w-full min-h-screen">
+      <div className="w-full max-w-[1200px] flex flex-col gap-6 justify-start items-center m-auto h-full px-6 md:px-4">
         <Slide direction="down" triggerOnce={true}>
-          <h1 className="text-[86px] font-Playfair font-semibold leading-[78px] text-white  mb-20">
+          <h1 className="text-[60px] md:text-[86px] font-Playfair font-semibold leading-[78px] text-white mb-10 md:mb-20">
             Faqs
           </h1>
         </Slide>

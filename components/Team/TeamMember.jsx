@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function TeamMember({ image, name, description }) {
   return (
-    <div className="flex flex-col gap-4 justify-center items-center">
+    <div className="w-full flex flex-col gap-4 justify-center items-center px-6 md:px-4">
       {/* =====> image*/}
       <div className="w-[300px] h-[300px] relative rounded-full border-4 border-solid border-green">
         <Image

@@ -8,9 +8,9 @@ import TimelineDot from "@mui/lab/TimelineDot";
 
 function Roadmap() {
   return (
-    <div className="w-full min-h-screen">
+    <div id="roadmap" className="w-full min-h-screen">
       <div className="w-full flex flex-col justify-center items-center max-w-[1200px] m-auto h-full">
-        <h className="text-[86px] font-Playfair font-semibold leading-[78px] text-white mb-20">
+        <h className="text-[60px] md:text-[86px] font-Playfair font-semibold leading-[78px] text-white mb-10 md:mb-20">
           Roadmap
         </h>
         <Timeline>

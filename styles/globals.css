@@ -15,6 +15,22 @@ html {
   background-color: #150d29;
 }
 
+/* =======> drawer styles */
+.drawer{
+  width: 50% !important;
+  background-color: #150d29 !important;
+}
+@media screen and (max-width: 700px) {
+  .drawer {
+    width: 70% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .drawer {
+    width: 100% !important;
+  }
+}
+
 /* =======> roadmap style */
 
 .heroBg {
